@@ -15,7 +15,7 @@ public class CartPage extends AbstractComponents {
 
 	// PageFactory Pattern
 	@FindBy(css = ".totalRow button")
-	WebElement checkout;
+	private WebElement checkout;
 
 	@FindBy(css = ".cartSection h3")
 	private List<WebElement> productTitles;

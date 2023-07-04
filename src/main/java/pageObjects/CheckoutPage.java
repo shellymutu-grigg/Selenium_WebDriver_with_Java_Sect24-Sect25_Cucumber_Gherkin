@@ -15,15 +15,15 @@ public class CheckoutPage extends AbstractComponents {
 
 	// PageFactory Pattern
 	@FindBy(css = "[placeholder='Select Country']")
-	WebElement country;
+	private WebElement country;
 
 	@FindBy(css = ".action__submit")
-	WebElement submit;
+	private WebElement submit;
 
 	@FindBy(css = ".ta-item:nth-of-type(1)")
-	WebElement selectCountry;
+	private WebElement selectCountry;
 
-	By resultsBy = By.cssSelector(".ta-results");
+	private By resultsBy = By.cssSelector(".ta-results");
 
 	public CheckoutPage(WebDriver webDriver) {
 

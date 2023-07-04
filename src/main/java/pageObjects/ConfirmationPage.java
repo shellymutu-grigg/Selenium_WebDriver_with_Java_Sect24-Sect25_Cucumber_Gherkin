@@ -13,7 +13,7 @@ public class ConfirmationPage extends AbstractComponents {
 
 	// PageFactory Pattern
 	@FindBy(css = ".hero-primary")
-	WebElement confirmationMessage;
+	private WebElement confirmationMessage;
 
 	public ConfirmationPage(WebDriver webDriver) {
 

@@ -13,16 +13,16 @@ public class LandingPage extends AbstractComponents {
 
 	// PageFactory Pattern
 	@FindBy(id = "userEmail")
-	WebElement userEmail;
+	private WebElement userEmail;
 
 	@FindBy(id = "userPassword")
-	WebElement userPassword;
+	private WebElement userPassword;
 
 	@FindBy(id = "login")
-	WebElement login;
+	private WebElement login;
 
 	@FindBy(css = "[class*='flyInOut']")
-	WebElement errorMessage;
+	private WebElement errorMessage;
 
 	public LandingPage(WebDriver webDriver) {
 		super(webDriver);

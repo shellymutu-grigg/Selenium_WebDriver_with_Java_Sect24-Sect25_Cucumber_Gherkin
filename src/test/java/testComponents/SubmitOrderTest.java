@@ -30,7 +30,7 @@ public class SubmitOrderTest extends BaseTest {
 		List<WebElement> products = productCatalogue.getProductList();
 
 		// Find product and add to cart
-		productCatalogue.addProducttoCart(input.get("productName"));
+		productCatalogue.addProductToCart(input.get("productName"));
 
 		// Navigate to cart
 		CartPage cartPage = productCatalogue.goToCartPage();

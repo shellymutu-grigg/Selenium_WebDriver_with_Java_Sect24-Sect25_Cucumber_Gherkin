@@ -26,5 +26,4 @@ public class ConfirmationPage extends AbstractComponents {
 	public String getConfirmationMessage() {
 		return confirmationMessage.getText();
 	}
-
 }

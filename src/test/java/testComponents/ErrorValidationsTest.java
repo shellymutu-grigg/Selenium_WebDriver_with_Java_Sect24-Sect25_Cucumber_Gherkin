@@ -41,7 +41,7 @@ public class ErrorValidationsTest extends BaseTest {
 		List<WebElement> products = productCatalogue.getProductList();
 
 		// Find product and add to cart
-		productCatalogue.addProducttoCart(productNameString);
+		productCatalogue.addProductToCart(productNameString);
 
 		// Navigate to cart
 		CartPage cartPage = productCatalogue.goToCartPage();
